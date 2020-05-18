@@ -1,0 +1,139 @@
+{
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "editor.cursorBlinking": "blink",
+  "terminal.integrated.fontSize": 16,
+  "editor.formatOnSave": true,
+  "workbench.statusBar.feedback.visible": false,
+  "editor.fontFamily": "Fira Code IScript",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.smoothScrolling": false,
+  "gitlens.gitExplorer.files.layout": "auto",
+  "python.pythonPath": "/usr/local/bin/python3",
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.historyExplorer.enabled": true,
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--) *TODO:?)(?!\\w)((?: +[^\n@]+?)(?= *(?://|/\\*+|<!--|@))|(?: +[^@\n]+)?)": [
+      {
+        "overviewRulerColor": "#ffcc00",
+        "backgroundColor": "#ffcc00",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#ffcc00",
+        "color": "#1f1f1f"
+      }
+    ],
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--) *FIXME:?)(?!\\w)((?: +[^\n@]+?)(?= *(?://|/\\*+|<!--|@))|(?: +[^@\n]+)?)": [
+      {
+        "overviewRulerColor": "#ff0000",
+        "backgroundColor": "#ff0000",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#d90000",
+        "color": "#1f1f1f"
+      }
+    ],
+    "(// )(@\\w+)": [
+      {},
+      {
+        "color": "#4de0ff"
+      }
+    ],
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--) *TEST:?)(?!\\w)((?: +[^\n@]+?)(?= *(?://|/\\*+|<!--|@))|(?: +[^@\n]+)?)": [
+      {
+        "overviewRulerColor": "#ffffff",
+        "backgroundColor": "#ffffff",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#ffffff",
+        "color": "#1f1f1f"
+      }
+    ],
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--) *DONE:?)(?!\\w)((?: +[^\n@]+?)(?= *(?://|/\\*+|<!--|@))|(?: +[^@\n]+)?)": [
+      {
+        "overviewRulerColor": "#090",
+        "backgroundColor": "#090",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#090",
+        "color": "#1f1f1f"
+      }
+    ]
+  },
+  "terminal.integrated.rendererType": "dom",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Comment",
+        "scope": [
+          // "comment",
+          // "comment.block",
+          // "comment.block.documentation",
+          // "comment.line",
+          // "comment.line.double-slash",
+          "punctuation.definition.comment",
+          "emphasis",
+          "markup.italic.markdown"
+        ],
+        "settings": {
+          // "fontStyle": "italic bold",
+          "fontStyle": "italic"
+          // "fontStyle": "italic underline",
+          // "fontStyle": "italic bold underline",
+        }
+      }
+    ]
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "materialTheme.fixIconsRunning": false,
+  "editor.highlightActiveIndentGuide": true,
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
+  "editor.fontSize": 15,
+  "liveServer.settings.donotVerifyTags": true,
+  "githubPullRequests.hosts": [
+    {
+      "host": "https://github.com",
+      "token": "system"
+    }
+  ],
+  "dart.flutterSdkPath": "/Users/divyanshtripathi/Documents/development/flutter",
+  "editor.formatOnPaste": true,
+  "gitlens.views.repositories.files.layout": "auto",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "arduino.additionalUrls": [
+    "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+  ],
+  "python.jediEnabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "C_Cpp.updateChannel": "Insiders",
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "calva.paredit.defaultKeyMap": "original",
+  "go.formatTool": "goimports"
+}
